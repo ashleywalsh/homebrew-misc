@@ -2,7 +2,7 @@ class Sonicradio < Formula
   desc "TUI radio player making use of Radio Browser API and Bubbletea"
   homepage "https://github.com/dancnb/sonicradio"
   license "MIT"
-  head "https://github.com/dancnb/sonicradio.git"
+  head "https://github.com/dancnb/sonicradio.git", branch: "main"
 
   depends_on "go" => :build
   depends_on "ffmpeg"
